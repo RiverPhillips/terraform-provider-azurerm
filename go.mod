@@ -1,9 +1,10 @@
 module github.com/terraform-providers/terraform-provider-azurerm
 
 require (
-	contrib.go.opencensus.io/exporter/ocagent v0.4.1 // indirect
+	contrib.go.opencensus.io/exporter/ocagent v0.4.2 // indirect
 	github.com/Azure/azure-sdk-for-go v29.0.0+incompatible
 	github.com/Azure/go-autorest v11.7.0+incompatible
+	github.com/census-instrumentation/opencensus-proto v0.1.0 // indirect
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/google/uuid v0.0.0-20170814143639-7e072fc3a7be
